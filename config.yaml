@@ -1,0 +1,2 @@
+ops_project: "test"
+db_url: "postgres://user:password@localhost:5432/user-service?sslmode=disable"

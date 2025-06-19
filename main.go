@@ -20,7 +20,7 @@ import (
 )
 
 func main() {
-	cfg := configfile.NewEnvReader()
+	cfg := configfile.NewReader("config.yaml")
 
 	port := cfg.StringDefault("port", "8080")
 
